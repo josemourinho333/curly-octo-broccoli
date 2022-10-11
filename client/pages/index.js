@@ -9,8 +9,6 @@ import { contractABI, contractAddress } from '../utils/constants';
 
 export default function Home() {
 
-
-
   return (
     <>
       <div className="gradient-bg-welcome">

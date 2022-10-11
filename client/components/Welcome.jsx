@@ -2,7 +2,8 @@ import { AiFillPlayCircle } from 'react-icons/ai';
 import { SiEthereum } from 'react-icons/si';
 import { BsInfoCircle } from 'react-icons/bs';
 import Loader from './Loader';
-
+import { TransactionContext } from '../context/TransactionContext';
+import React, {useContext} from 'react';
 
 const Input = ({placeHolder, name, type, value, handleChange}) => {
   return (
@@ -20,7 +21,8 @@ const Input = ({placeHolder, name, type, value, handleChange}) => {
 
 
 const Welcome = () => {
-
+  const { value } = useContext(TransactionContext);
+  
   const connectWallet = () => {
 
   };
