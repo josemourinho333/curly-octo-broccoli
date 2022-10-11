@@ -7,7 +7,7 @@ import Loader from './Loader';
 const Input = ({placeHolder, name, type, value, handleChange}) => {
   return (
     <input 
-      placeHolder={placeHolder}
+      placeholder={placeHolder}
       name={name}
       type={type}
       step="0.0001"
