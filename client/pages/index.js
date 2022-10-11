@@ -14,8 +14,8 @@ export default function Home() {
       <div className="gradient-bg-welcome">
         <Welcome />
       </div>
-      <Services />
-      <Transactions />
+      {/* <Services />
+      <Transactions /> */}
     </>
   )
 }
