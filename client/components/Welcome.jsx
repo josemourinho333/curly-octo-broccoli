@@ -35,7 +35,7 @@ const Welcome = () => {
   };
 
   return (
-    <div className="flex w-full justify-center items-center bg-teal-300">
+    <div className="flex h-screen w-full justify-center items-center bg-teal-300">
       <div className="flex md:flex-row md:gap-[1rem] flex-col items-center justify-between md:p-20 py-12 px-4 gap-[5rem] ">
         <div className="flex flex-1 justify-start flex-col md:mr-10">
           <h1 className="text-3xl sm:text-5xl py-1">
