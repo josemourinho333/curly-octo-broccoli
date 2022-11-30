@@ -17,3 +17,9 @@ Users can send Ehtereum through the blockchain network interacting with smart co
 * JavaScript
 * Tailwind
 
+#### Start
+* Clone the repo and npm i in both /client and /smart_contract
+* CD client/ and run "npm run dev"
+* Go to your localhost:3000 in the browser
+* Make sure you have metmask set up and have it on your extension
+* Once wallet is connected, you can send to an address
